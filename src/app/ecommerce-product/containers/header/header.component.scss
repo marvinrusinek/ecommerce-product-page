@@ -1,0 +1,57 @@
+header {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid gray;
+
+  .logo {
+    margin-top: 15px;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+
+  nav {
+    // margin-top: 15px;
+    padding-left: 150px;
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+
+      li {
+        padding-right: 40px;
+
+        a {
+          text-decoration: none;
+          color: gray;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .nav-imgs {
+    margin-top: -10px;
+    padding-left: 300px;
+
+    img {
+      cursor: pointer;
+    }
+
+    .img-cart {
+      width: 20px;
+      height: 20px;
+    }
+
+    .img-avatar {
+      border-radius: 50%;
+      width: 35px;
+      height: 35px;
+      padding-top: 10px;
+      padding-left: 30px;
+    }
+  }
+}
